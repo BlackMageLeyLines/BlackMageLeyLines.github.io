@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>带图 on 黑魔纹の设定站</title>
+    <link>http://localhost:1313/tags/%E5%B8%A6%E5%9B%BE/</link>
+    <description>Recent content in 带图 on 黑魔纹の设定站</description>
+    <generator>Hugo</generator>
+    <language>zh-Hans</language>
+    <lastBuildDate>Sun, 29 Dec 2024 11:06:52 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E5%B8%A6%E5%9B%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>诺特</title>
+      <link>http://localhost:1313/posts/post1/</link>
+      <pubDate>Sun, 29 Dec 2024 11:06:52 +0800</pubDate>
+      <guid>http://localhost:1313/posts/post1/</guid>
+      <description>&lt;h2 id=&#34;诺特&#34;&gt;诺特&lt;/h2&gt;&#xA;&lt;h3 id=&#34;种族&#34;&gt;种族：&lt;/h3&gt;&#xA;&lt;h3 id=&#34;职业&#34;&gt;职业：&lt;/h3&gt;&#xA;&lt;h3 id=&#34;年龄&#34;&gt;年龄：&lt;/h3&gt;&#xA;&lt;h3 id=&#34;性别&#34;&gt;性别：&lt;/h3&gt;&#xA;&lt;p&gt;Cut out summary from your post content here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>诺特</title>
+      <link>http://localhost:1313/posts/post2/</link>
+      <pubDate>Sun, 29 Dec 2024 11:06:52 +0800</pubDate>
+      <guid>http://localhost:1313/posts/post2/</guid>
+      <description>&lt;h2 id=&#34;诺特&#34;&gt;诺特&lt;/h2&gt;&#xA;&lt;h1 id=&#34;种族&#34;&gt;种族：&lt;/h1&gt;&#xA;&lt;h1 id=&#34;职业&#34;&gt;职业：&lt;/h1&gt;&#xA;&lt;h1 id=&#34;年龄&#34;&gt;年龄：&lt;/h1&gt;&#xA;&lt;h1 id=&#34;性别&#34;&gt;性别：&lt;/h1&gt;&#xA;&lt;p&gt;Cut out summary from your post content here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>诺特</title>
+      <link>http://localhost:1313/posts/post3/</link>
+      <pubDate>Sun, 29 Dec 2024 11:06:52 +0800</pubDate>
+      <guid>http://localhost:1313/posts/post3/</guid>
+      <description>&lt;h2 id=&#34;诺特&#34;&gt;诺特&lt;/h2&gt;&#xA;&lt;h1 id=&#34;种族&#34;&gt;种族：&lt;/h1&gt;&#xA;&lt;h1 id=&#34;职业&#34;&gt;职业：&lt;/h1&gt;&#xA;&lt;h1 id=&#34;年龄&#34;&gt;年龄：&lt;/h1&gt;&#xA;&lt;h1 id=&#34;性别&#34;&gt;性别：&lt;/h1&gt;&#xA;&lt;p&gt;Cut out summary from your post content here.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
