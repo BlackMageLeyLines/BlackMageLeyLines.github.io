@@ -13,21 +13,7 @@
       <link>http://localhost:1313/posts/post1/</link>
       <pubDate>Sun, 29 Dec 2024 11:06:52 +0800</pubDate>
       <guid>http://localhost:1313/posts/post1/</guid>
-      <description>&lt;h2 id=&#34;诺特&#34;&gt;诺特&lt;/h2&gt;&#xA;&lt;h3 id=&#34;种族&#34;&gt;种族：&lt;/h3&gt;&#xA;&lt;h3 id=&#34;职业&#34;&gt;职业：&lt;/h3&gt;&#xA;&lt;h3 id=&#34;年龄&#34;&gt;年龄：&lt;/h3&gt;&#xA;&lt;h3 id=&#34;性别&#34;&gt;性别：&lt;/h3&gt;&#xA;&lt;p&gt;Cut out summary from your post content here.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>诺特</title>
-      <link>http://localhost:1313/posts/post2/</link>
-      <pubDate>Sun, 29 Dec 2024 11:06:52 +0800</pubDate>
-      <guid>http://localhost:1313/posts/post2/</guid>
-      <description>&lt;h2 id=&#34;诺特&#34;&gt;诺特&lt;/h2&gt;&#xA;&lt;h1 id=&#34;种族&#34;&gt;种族：&lt;/h1&gt;&#xA;&lt;h1 id=&#34;职业&#34;&gt;职业：&lt;/h1&gt;&#xA;&lt;h1 id=&#34;年龄&#34;&gt;年龄：&lt;/h1&gt;&#xA;&lt;h1 id=&#34;性别&#34;&gt;性别：&lt;/h1&gt;&#xA;&lt;p&gt;Cut out summary from your post content here.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>诺特</title>
-      <link>http://localhost:1313/posts/post3/</link>
-      <pubDate>Sun, 29 Dec 2024 11:06:52 +0800</pubDate>
-      <guid>http://localhost:1313/posts/post3/</guid>
-      <description>&lt;h2 id=&#34;诺特&#34;&gt;诺特&lt;/h2&gt;&#xA;&lt;h1 id=&#34;种族&#34;&gt;种族：&lt;/h1&gt;&#xA;&lt;h1 id=&#34;职业&#34;&gt;职业：&lt;/h1&gt;&#xA;&lt;h1 id=&#34;年龄&#34;&gt;年龄：&lt;/h1&gt;&#xA;&lt;h1 id=&#34;性别&#34;&gt;性别：&lt;/h1&gt;&#xA;&lt;p&gt;Cut out summary from your post content here.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;诺特&#34;&gt;诺特&lt;/h2&gt;&#xA;&lt;h3 id=&#34;种族人类&#34;&gt;种族：人类&lt;/h3&gt;&#xA;&lt;h3 id=&#34;职业法师传承霞流神乐舞&#34;&gt;职业：法师——传承：霞流神乐舞&lt;/h3&gt;&#xA;&lt;h3 id=&#34;年龄20岁前半&#34;&gt;年龄：20岁前半&lt;/h3&gt;&#xA;&lt;h3 id=&#34;性别女&#34;&gt;性别：女&lt;/h3&gt;&#xA;&lt;p&gt;独自一人从海国来到费伦剑湾的东方少女，目前在大法师克罗恩·瓦尔哈洛的法师塔内借宿，作为竖琴手与炼金术学徒进行活动。法术知识主要来自家乡，所以经常会与瓦尔哈洛探讨东西方差距，战斗时通过快速而优美的舞蹈与魔网建立联系，同时在舞蹈的间隙通过剑刃与“符箓”作为施法媒介杀伤敌人。&#xA;似乎有着不愉快的过去，总是会责备自己力量不够，离守护“某个人”还差得远。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;./nott.png&#34; alt=&#34;人物图&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
