@@ -2,38 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 黑魔纹の设定站</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://blackmageleylines.github.io/tags/</link>
     <description>Recent content in Tags on 黑魔纹の设定站</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 06 Dec 2025 23:29:41 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Dec 2025 23:25:38 +0800</lastBuildDate>
+    <atom:link href="https://blackmageleylines.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DND</title>
-      <link>http://localhost:1313/tags/dnd/</link>
-      <pubDate>Sat, 06 Dec 2025 23:29:41 +0800</pubDate>
-      <guid>http://localhost:1313/tags/dnd/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>吟游诗人的胡诌</title>
-      <link>http://localhost:1313/tags/%E5%90%9F%E6%B8%B8%E8%AF%97%E4%BA%BA%E7%9A%84%E8%83%A1%E8%AF%8C/</link>
-      <pubDate>Sat, 06 Dec 2025 23:29:41 +0800</pubDate>
-      <guid>http://localhost:1313/tags/%E5%90%9F%E6%B8%B8%E8%AF%97%E4%BA%BA%E7%9A%84%E8%83%A1%E8%AF%8C/</guid>
+      <link>https://blackmageleylines.github.io/tags/dnd/</link>
+      <pubDate>Sat, 06 Dec 2025 23:25:38 +0800</pubDate>
+      <guid>https://blackmageleylines.github.io/tags/dnd/</guid>
       <description></description>
     </item>
     <item>
       <title>PC</title>
-      <link>http://localhost:1313/tags/pc/</link>
+      <link>https://blackmageleylines.github.io/tags/pc/</link>
       <pubDate>Sat, 06 Dec 2025 23:25:38 +0800</pubDate>
-      <guid>http://localhost:1313/tags/pc/</guid>
+      <guid>https://blackmageleylines.github.io/tags/pc/</guid>
       <description></description>
     </item>
     <item>
       <title>Log</title>
-      <link>http://localhost:1313/tags/log/</link>
+      <link>https://blackmageleylines.github.io/tags/log/</link>
       <pubDate>Sat, 06 Dec 2025 21:48:24 +0800</pubDate>
-      <guid>http://localhost:1313/tags/log/</guid>
+      <guid>https://blackmageleylines.github.io/tags/log/</guid>
       <description></description>
     </item>
   </channel>
