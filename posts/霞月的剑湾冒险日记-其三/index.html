@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>霞月的剑湾冒险日记-其三 | 黑魔纹の设定站</title>
+
+    
+
+<link rel="canonical" href="http://localhost:1313/posts/%E9%9C%9E%E6%9C%88%E7%9A%84%E5%89%91%E6%B9%BE%E5%86%92%E9%99%A9%E6%97%A5%E8%AE%B0-%E5%85%B6%E4%B8%89/" />
+
+
+
+<meta name="author" content="霞月" />
+<meta name="description" content="谷地历149O年 落叶之月 25日 晴 写于旅店
+一大早，一个醉醺醺的水手模样打扮的人，直接把一枚金龙币拍在了我的摊子上。他说他梦里见到了他的情人，和别的男人，抱在一起做那些腌臜之事。我也不知道他是怎么把梦记得这么详细的——梦里连那男人左肩上的刺青是条断尾海蛇都看得一清二楚。现在想来我应该多问他要一笔精神损失费。 总之，他红着眼，咬牙切齿地问我：“这梦是真的吗？她是不是背叛了我？” 我本想直接说“梦只是梦”，但那枚金龙币在阳光下闪闪发亮。 于是我清了清嗓子，摆出一副高深莫测的样子，低声说：“梦境未必是现实，但……” 他一把抓住我的袖子：“那我该咋办？直接冲进她家把她揪出来？” “不，”我摇头“若你贸然现身，她若真有异心，必会遮掩；若她无辜，你反倒毁了信任。不如……你亲自去看，却不被看见。” 我为他施加了易容术，还借了点猪鬃充作假胡子什么的，防止法术失效后他立马穿帮。 虽然易容术只有一小时的时效，但他到了傍晚才再次回到我的摊子前。 “她……她在码头的洗衣石那儿，”他声音沙哑，“一个人。搓着我的衬衫，边洗边哼我教她的水手谣。那男人……根本没出现。我，看她手指冻得发红，还把省下的面包掰碎喂给巷口的猫……” 我几乎很难想象这样一个结实的汉子，会在一个陌生人面前哭的那么梨花带雨。 “法师，”他说，“我不是来查她的，我是来查自己的心。梦里那男人……或许是我自己。我出海三个月，怕她不要我了，怕自己配不上她……” 他搜遍了裤兜，最后又给了我几枚油腻腻的银币，我将两枚交还给他，和他说：“左传出巷子再往前走一个路口，路的左边有一间花店。店主是个木精灵姑娘，脾气古怪，但玫瑰从不带刺。买一束，别说是我说的——就说……是海风托你带回来的。” 就在我转身放钱的时候，水手已经转身离开了巷子。 或许明天，他会带着玫瑰，牵着她的手，走过我的摊子。
+或许不会。
+但至少今晚，他睡得着了。
+" />
+
+
+<meta name="keywords" content="DND,Log">
+
+
+
+<meta name="generator" content="Hugo 0.152.2">
+
+
+<meta property="og:url" content="http://localhost:1313/posts/%E9%9C%9E%E6%9C%88%E7%9A%84%E5%89%91%E6%B9%BE%E5%86%92%E9%99%A9%E6%97%A5%E8%AE%B0-%E5%85%B6%E4%B8%89/">
+  <meta property="og:site_name" content="黑魔纹の设定站">
+  <meta property="og:title" content="霞月的剑湾冒险日记-其三">
+  <meta property="og:description" content="谷地历149O年 落叶之月 25日 晴 写于旅店
+一大早，一个醉醺醺的水手模样打扮的人，直接把一枚金龙币拍在了我的摊子上。他说他梦里见到了他的情人，和别的男人，抱在一起做那些腌臜之事。我也不知道他是怎么把梦记得这么详细的——梦里连那男人左肩上的刺青是条断尾海蛇都看得一清二楚。现在想来我应该多问他要一笔精神损失费。 总之，他红着眼，咬牙切齿地问我：“这梦是真的吗？她是不是背叛了我？” 我本想直接说“梦只是梦”，但那枚金龙币在阳光下闪闪发亮。 于是我清了清嗓子，摆出一副高深莫测的样子，低声说：“梦境未必是现实，但……” 他一把抓住我的袖子：“那我该咋办？直接冲进她家把她揪出来？” “不，”我摇头“若你贸然现身，她若真有异心，必会遮掩；若她无辜，你反倒毁了信任。不如……你亲自去看，却不被看见。” 我为他施加了易容术，还借了点猪鬃充作假胡子什么的，防止法术失效后他立马穿帮。 虽然易容术只有一小时的时效，但他到了傍晚才再次回到我的摊子前。 “她……她在码头的洗衣石那儿，”他声音沙哑，“一个人。搓着我的衬衫，边洗边哼我教她的水手谣。那男人……根本没出现。我，看她手指冻得发红，还把省下的面包掰碎喂给巷口的猫……” 我几乎很难想象这样一个结实的汉子，会在一个陌生人面前哭的那么梨花带雨。 “法师，”他说，“我不是来查她的，我是来查自己的心。梦里那男人……或许是我自己。我出海三个月，怕她不要我了，怕自己配不上她……” 他搜遍了裤兜，最后又给了我几枚油腻腻的银币，我将两枚交还给他，和他说：“左传出巷子再往前走一个路口，路的左边有一间花店。店主是个木精灵姑娘，脾气古怪，但玫瑰从不带刺。买一束，别说是我说的——就说……是海风托你带回来的。” 就在我转身放钱的时候，水手已经转身离开了巷子。 或许明天，他会带着玫瑰，牵着她的手，走过我的摊子。
+或许不会。
+但至少今晚，他睡得着了。">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-12-06T21:48:24+08:00">
+    <meta property="article:modified_time" content="2025-12-06T21:48:24+08:00">
+    <meta property="article:tag" content="DND">
+    <meta property="article:tag" content="Log">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="霞月的剑湾冒险日记-其三">
+  <meta name="twitter:description" content="谷地历149O年 落叶之月 25日 晴 写于旅店
+一大早，一个醉醺醺的水手模样打扮的人，直接把一枚金龙币拍在了我的摊子上。他说他梦里见到了他的情人，和别的男人，抱在一起做那些腌臜之事。我也不知道他是怎么把梦记得这么详细的——梦里连那男人左肩上的刺青是条断尾海蛇都看得一清二楚。现在想来我应该多问他要一笔精神损失费。 总之，他红着眼，咬牙切齿地问我：“这梦是真的吗？她是不是背叛了我？” 我本想直接说“梦只是梦”，但那枚金龙币在阳光下闪闪发亮。 于是我清了清嗓子，摆出一副高深莫测的样子，低声说：“梦境未必是现实，但……” 他一把抓住我的袖子：“那我该咋办？直接冲进她家把她揪出来？” “不，”我摇头“若你贸然现身，她若真有异心，必会遮掩；若她无辜，你反倒毁了信任。不如……你亲自去看，却不被看见。” 我为他施加了易容术，还借了点猪鬃充作假胡子什么的，防止法术失效后他立马穿帮。 虽然易容术只有一小时的时效，但他到了傍晚才再次回到我的摊子前。 “她……她在码头的洗衣石那儿，”他声音沙哑，“一个人。搓着我的衬衫，边洗边哼我教她的水手谣。那男人……根本没出现。我，看她手指冻得发红，还把省下的面包掰碎喂给巷口的猫……” 我几乎很难想象这样一个结实的汉子，会在一个陌生人面前哭的那么梨花带雨。 “法师，”他说，“我不是来查她的，我是来查自己的心。梦里那男人……或许是我自己。我出海三个月，怕她不要我了，怕自己配不上她……” 他搜遍了裤兜，最后又给了我几枚油腻腻的银币，我将两枚交还给他，和他说：“左传出巷子再往前走一个路口，路的左边有一间花店。店主是个木精灵姑娘，脾气古怪，但玫瑰从不带刺。买一束，别说是我说的——就说……是海风托你带回来的。” 就在我转身放钱的时候，水手已经转身离开了巷子。 或许明天，他会带着玫瑰，牵着她的手，走过我的摊子。
+或许不会。
+但至少今晚，他睡得着了。">
+
+
+
+
+<link rel="stylesheet" href="/css/output.css" />
+
+
+<style>
+
+#dream-global-bg {
+  background-image: url(/img/background.png);
+}
+
+
+
+</style>
+
+
+
+    
+
+
+<style>
+  pre {
+    padding: 1em;
+    overflow: auto;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+    
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.15.1/dist/cdn.min.js" integrity="sha256-Rmqrc5SKeSLTSnQ9shSKWmJco1ks8c1hLI8UG2Np03M=" crossorigin="anonymous"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    
+    <div id="dream-global-bg"></div>
+
+    
+<nav class="mt-4 lg:mt-8 py-4">
+
+  
+  <div class="container flex justify-between px-4">
+  
+    <section class="flex items-center gap-4">
+      <div class="avatar cursor-pointer hover:avatar-online" @click="flip = !flip" title="Flip it!">
+        <div class="h-10 rounded-full">
+          <img src="/img/avatar.png" alt="黑魔纹の设定站" />
+        </div>
+      </div>
+
+      
+      <div>
+        
+        <a href="http://localhost:1313/" class="text-lg font-semibold cursor-pointer">
+          黑魔纹の设定站
+        </a>
+        
+        
+      </div>
+      
+    </section>
+
+    
+    
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-1 shadow-md">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives">
+    <ion-icon name="archive"></ion-icon>
+    Archives
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="All Categories">
+    <ion-icon name="grid"></ion-icon>
+    All Categories
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="All Tags">
+    <ion-icon name="pricetags"></ion-icon>
+    All Tags
+  </a>
+</li>
+
+
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+
+      
+      
+
+
+
+
+
+      
+      
+
+
+
+
+
+      
+      
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="Archives">
+  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/categories" title="All Categories">
+  <ion-icon class="group-hover:text-primary-content" name="grid"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/tags" title="All Tags">
+  <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
+</a>
+
+
+      
+
+      
+
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+<div class="lg:grid lg:grid-cols-4 gap-4 mt-4 px-4">
+  <div class="hidden lg:block">
+    
+  </div>
+
+  <div class="lg:col-span-2">
+    <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
+      
+  <meta itemprop="name" content="霞月的剑湾冒险日记-其三">
+  <meta itemprop="description" content="谷地历149O年 落叶之月 25日 晴 写于旅店
+一大早，一个醉醺醺的水手模样打扮的人，直接把一枚金龙币拍在了我的摊子上。他说他梦里见到了他的情人，和别的男人，抱在一起做那些腌臜之事。我也不知道他是怎么把梦记得这么详细的——梦里连那男人左肩上的刺青是条断尾海蛇都看得一清二楚。现在想来我应该多问他要一笔精神损失费。 总之，他红着眼，咬牙切齿地问我：“这梦是真的吗？她是不是背叛了我？” 我本想直接说“梦只是梦”，但那枚金龙币在阳光下闪闪发亮。 于是我清了清嗓子，摆出一副高深莫测的样子，低声说：“梦境未必是现实，但……” 他一把抓住我的袖子：“那我该咋办？直接冲进她家把她揪出来？” “不，”我摇头“若你贸然现身，她若真有异心，必会遮掩；若她无辜，你反倒毁了信任。不如……你亲自去看，却不被看见。” 我为他施加了易容术，还借了点猪鬃充作假胡子什么的，防止法术失效后他立马穿帮。 虽然易容术只有一小时的时效，但他到了傍晚才再次回到我的摊子前。 “她……她在码头的洗衣石那儿，”他声音沙哑，“一个人。搓着我的衬衫，边洗边哼我教她的水手谣。那男人……根本没出现。我，看她手指冻得发红，还把省下的面包掰碎喂给巷口的猫……” 我几乎很难想象这样一个结实的汉子，会在一个陌生人面前哭的那么梨花带雨。 “法师，”他说，“我不是来查她的，我是来查自己的心。梦里那男人……或许是我自己。我出海三个月，怕她不要我了，怕自己配不上她……” 他搜遍了裤兜，最后又给了我几枚油腻腻的银币，我将两枚交还给他，和他说：“左传出巷子再往前走一个路口，路的左边有一间花店。店主是个木精灵姑娘，脾气古怪，但玫瑰从不带刺。买一束，别说是我说的——就说……是海风托你带回来的。” 就在我转身放钱的时候，水手已经转身离开了巷子。 或许明天，他会带着玫瑰，牵着她的手，走过我的摊子。
+或许不会。
+但至少今晚，他睡得着了。">
+  <meta itemprop="datePublished" content="2025-12-06T21:48:24+08:00">
+  <meta itemprop="dateModified" content="2025-12-06T21:48:24+08:00">
+  <meta itemprop="wordCount" content="21">
+  <meta itemprop="keywords" content="DND,Log">
+
+      <header>
+        <h1 itemprop="headline">霞月的剑湾冒险日记-其三</h1>
+        <p class="text-sm">
+          
+            Saturday, Dec 6, 2025
+          
+
+          | <span>1 minute read</span>
+
+          
+          | <span>Updated at
+            
+              Saturday, Dec 6, 2025
+            </span>
+          
+        </p>
+
+        
+        <div class="flex justify-between">
+          
+            <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    
+      <span itemprop="name">霞月</span>
+    
+  
+  </span>
+</div>
+
+          
+
+          <div class="flex items-center gap-2">
+  
+  
+
+  
+  
+  
+  
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="https://x.com/intent/post?text=%e9%9c%9e%e6%9c%88%e7%9a%84%e5%89%91%e6%b9%be%e5%86%92%e9%99%a9%e6%97%a5%e8%ae%b0-%e5%85%b6%e4%b8%89&amp;url=http://localhost:1313/posts/%E9%9C%9E%E6%9C%88%E7%9A%84%E5%89%91%E6%B9%BE%E5%86%92%E9%99%A9%E6%97%A5%E8%AE%B0-%E5%85%B6%E4%B8%89/" target="_blank" rel="noopener noreferrer"
+      title="Share on X">
+      <ion-icon class="group-hover:text-primary-content" name="logo-x"></ion-icon>
+    </a>
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="https://facebook.com/sharer/sharer.php?u=http://localhost:1313/posts/%E9%9C%9E%E6%9C%88%E7%9A%84%E5%89%91%E6%B9%BE%E5%86%92%E9%99%A9%E6%97%A5%E8%AE%B0-%E5%85%B6%E4%B8%89/" target="_blank" rel="noopener noreferrer"
+      title="Share on Facebook">
+      <ion-icon class="group-hover:text-primary-content" name="logo-facebook"></ion-icon>
+    </a>
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="https://wa.me/?text=%e9%9c%9e%e6%9c%88%e7%9a%84%e5%89%91%e6%b9%be%e5%86%92%e9%99%a9%e6%97%a5%e8%ae%b0-%e5%85%b6%e4%b8%89%20http://localhost:1313/posts/%E9%9C%9E%E6%9C%88%E7%9A%84%E5%89%91%E6%B9%BE%E5%86%92%E9%99%A9%E6%97%A5%E8%AE%B0-%E5%85%B6%E4%B8%89/" target="_blank" rel="noopener noreferrer"
+      title="Share on WhatsApp">
+      <ion-icon class="group-hover:text-primary-content" name="logo-whatsapp"></ion-icon>
+    </a>
+  
+
+  
+  
+</div>
+
+        </div>
+      </header>
+
+      <section id="dream-single-post-content" itemprop="articleBody">
+        
+
+        <p><em>谷地历149O年 落叶之月 25日     晴    写于旅店</em></p>
+<p>一大早，一个醉醺醺的水手模样打扮的人，直接把一枚金龙币拍在了我的摊子上。他说他梦里见到了他的情人，和别的男人，抱在一起做那些腌臜之事。我也不知道他是怎么把梦记得这么详细的——梦里连那男人左肩上的刺青是条断尾海蛇都看得一清二楚。现在想来我应该多问他要一笔精神损失费。
+总之，他红着眼，咬牙切齿地问我：“这梦是真的吗？她是不是背叛了我？”
+我本想直接说“梦只是梦”，但那枚金龙币在阳光下闪闪发亮。
+于是我清了清嗓子，摆出一副高深莫测的样子，低声说：“梦境未必是现实，但……”
+他一把抓住我的袖子：“那我该咋办？直接冲进她家把她揪出来？”
+“不，”我摇头“若你贸然现身，她若真有异心，必会遮掩；若她无辜，你反倒毁了信任。不如……你亲自去看，却不被看见。”
+我为他施加了易容术，还借了点猪鬃充作假胡子什么的，防止法术失效后他立马穿帮。
+虽然易容术只有一小时的时效，但他到了傍晚才再次回到我的摊子前。
+“她……她在码头的洗衣石那儿，”他声音沙哑，“一个人。搓着我的衬衫，边洗边哼我教她的水手谣。那男人……根本没出现。我，看她手指冻得发红，还把省下的面包掰碎喂给巷口的猫……”
+我几乎很难想象这样一个结实的汉子，会在一个陌生人面前哭的那么梨花带雨。
+“法师，”他说，“我不是来查她的，我是来查自己的心。梦里那男人……或许是我自己。我出海三个月，怕她不要我了，怕自己配不上她……”
+他搜遍了裤兜，最后又给了我几枚油腻腻的银币，我将两枚交还给他，和他说：“左传出巷子再往前走一个路口，路的左边有一间花店。店主是个木精灵姑娘，脾气古怪，但玫瑰从不带刺。买一束，别说是我说的——就说……是海风托你带回来的。”
+就在我转身放钱的时候，水手已经转身离开了巷子。
+或许明天，他会带着玫瑰，牵着她的手，走过我的摊子。<br>
+或许不会。<br>
+但至少今晚，他睡得着了。</p>
+
+
+        
+      </section>
+
+      
+
+      
+    </article>
+  </div>
+
+  <div
+    x-data="tocHighlighter()"
+    @scroll.window="debouncedScroll"
+    class="hidden lg:flex lg:flex-col lg:items-end"
+  >
+    
+  </div>
+</div>
+
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 黑魔纹の设定站
+  </p>
+  
+
+  
+  <p class="text-sm">
+    🌱
+    <span class="text-base-content/60">
+      Powered by <a class="hover:underline" href="https://gohugo.io/" target="_blank">Hugo</a> with theme
+      <a class="hover:underline" href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</span
+    >
+  </p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            
+            <div class="dream-grid dream-grid-about">
+  
+
+  
+
+  
+</div>
+
+            
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 黑魔纹の设定站
+  </p>
+  
+
+  
+  <p class="text-sm">
+    🌱
+    <span class="text-base-content/60">
+      Powered by <a class="hover:underline" href="https://gohugo.io/" target="_blank">Hugo</a> with theme
+      <a class="hover:underline" href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</span
+    >
+  </p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+
+  
+  
+  <script src="/js/grid.js"></script>
+
+
+
+
+<script src="/js/main.js"></script>
+
+    
+
+
+
+
+
+
+
+<script src="/js/toc.js"></script>
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.esm.js" integrity="sha256-/IFmi82bIhdYWctu0UddSlJqpnzWm7Vh2C4CM32wF/k=" crossorigin="anonymous"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.js" integrity="sha256-mr7eJMX3VC3F7G32mk4oWp1C6a2tlMYxUdptfT7uKI8=" crossorigin="anonymous"></script>
+  </body>
+</html>
